@@ -16,6 +16,6 @@ The first run installs a udev rule for the mouse (asks for sudo once) so the dri
 
 ## Links
 
-- Writeup: https://writeups.nicolas.rest/article.html?f=mouse_driver.md
+- Writeup: [https://writeups.nicolas.rest/article.html?f=mouse_driver.md](https://writeups.nicolas.rest/article.html?f=mouse_driver%2Fmouse_driver.md)
 
 ![GUI](assets/gui.png)

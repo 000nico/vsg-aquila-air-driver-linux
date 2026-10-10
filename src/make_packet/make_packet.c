@@ -31,7 +31,7 @@ Cfg1Packet make_cfg1(uint8_t light, uint8_t speed, uint8_t led_mode, Color color
     for (int i = 0; i < 7; i++)
         packet.body.colors[i] = colors;
 
-    packet.body.color_flag = 0x7F;
+    packet.body.color_flag = (led_mode == 2 || led_mode == 8) ? 0x01 : 0x7F;
 
     return packet;
 }

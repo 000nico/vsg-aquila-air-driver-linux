@@ -50,14 +50,7 @@ int main() {
     packet = make_cfg1(74, 5, 2, makeColor(255, 255, 255), (DpiLevel){0, 0, 0});
     load_config();
 
-    int written_bytes = send_packet(handle, &packet);
-    if(written_bytes < 0) {
-        fprintf(stderr, "Error in hid_write: %ls\n", hid_error(handle));
-        fprintf(stderr, "sizeof(packet) = %i", sizeof(packet));
-        return 0;
-    } else {
-        fprintf(stdout, "wrote %i bytes\n", written_bytes);
-    }
+    apply_config();
 
     run_gui();
 }

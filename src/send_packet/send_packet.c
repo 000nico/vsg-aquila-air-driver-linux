@@ -3,5 +3,5 @@
 
 // return written bytes
 int send_packet(hid_device* handle, Cfg1Packet* packet) {
-    return hid_write(handle, (unsigned char*)&packet, sizeof(packet));
+    return hid_write(handle, (unsigned char*)packet, sizeof(*packet));
 }

@@ -1,15 +1,21 @@
-this driver was done by reversing the original binaries of the Aquila Air made for windows
+# Aquila Air Mouse Driver
 
-dependencies:
-hidapi-devel
-glfw-devel
-mesa-libGL-devel
+This driver was developed by reversing the original Aquila Air binaries made for Windows. reversing OemDrv.exe and Lowdev.dll
 
-build & run:
+## Dependencies
+
+- hidapi-devel
+- glfw-devel
+- mesa-libGL-devel
+
+## Build & Run
+
 ./build-and-open.sh
 
-the first run installs a udev rule for the mouse (asks for sudo once) so the
-driver can run as your user; running the GUI through sudo breaks the display
-connection.
+The first run installs a udev rule for the mouse (asks for sudo once) so the driver can run as your user; running the GUI through sudo breaks the display connection.
 
-![gui](assets/gui.png)
+## Links
+
+- Writeup: https://writeups.nicolas.rest/article.html?f=mouse_driver.md
+
+![GUI](assets/gui.png)

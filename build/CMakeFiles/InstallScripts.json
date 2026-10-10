@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/nico/dev/vsg-aquila-air-driver-linux/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

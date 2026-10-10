@@ -1,0 +1,1 @@
+/usr/sbin/cc -Wl,--dependency-file=CMakeFiles/aquila-air-driver.dir/link.d "CMakeFiles/aquila-air-driver.dir/main.c.o" "CMakeFiles/aquila-air-driver.dir/src/get_device/get_hid.c.o" "CMakeFiles/aquila-air-driver.dir/src/make_packet/make_packet.c.o" "CMakeFiles/aquila-air-driver.dir/src/send_packet/send_packet.c.o" -o aquila-air-driver  /usr/lib64/libhidapi-hidraw.so

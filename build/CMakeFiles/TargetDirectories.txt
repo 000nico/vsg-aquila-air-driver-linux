@@ -1,0 +1,3 @@
+/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles/aquila-air-driver.dir
+/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles/edit_cache.dir
+/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles/rebuild_cache.dir

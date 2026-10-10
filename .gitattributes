@@ -1,5 +1,8 @@
 *.cmake linguist-detectable=false
 CMakeLists.txt linguist-detectable=false
 Makefile linguist-detectable=false
+makefile linguist-detectable=false
 *.make linguist-detectable=false
 *.mak linguist-detectable=false
+**/Makefile linguist-detectable=false
+**/makefile linguist-detectable=false

@@ -154,6 +154,78 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/main.c.s
 .PHONY : main.c.s
 
+src/config/apply_config.o: src/config/apply_config.c.o
+.PHONY : src/config/apply_config.o
+
+# target to build an object file
+src/config/apply_config.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/config/apply_config.c.o
+.PHONY : src/config/apply_config.c.o
+
+src/config/apply_config.i: src/config/apply_config.c.i
+.PHONY : src/config/apply_config.i
+
+# target to preprocess a source file
+src/config/apply_config.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/config/apply_config.c.i
+.PHONY : src/config/apply_config.c.i
+
+src/config/apply_config.s: src/config/apply_config.c.s
+.PHONY : src/config/apply_config.s
+
+# target to generate assembly for a file
+src/config/apply_config.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/config/apply_config.c.s
+.PHONY : src/config/apply_config.c.s
+
+src/config/load_config.o: src/config/load_config.c.o
+.PHONY : src/config/load_config.o
+
+# target to build an object file
+src/config/load_config.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/config/load_config.c.o
+.PHONY : src/config/load_config.c.o
+
+src/config/load_config.i: src/config/load_config.c.i
+.PHONY : src/config/load_config.i
+
+# target to preprocess a source file
+src/config/load_config.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/config/load_config.c.i
+.PHONY : src/config/load_config.c.i
+
+src/config/load_config.s: src/config/load_config.c.s
+.PHONY : src/config/load_config.s
+
+# target to generate assembly for a file
+src/config/load_config.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/config/load_config.c.s
+.PHONY : src/config/load_config.c.s
+
+src/config/save_config.o: src/config/save_config.c.o
+.PHONY : src/config/save_config.o
+
+# target to build an object file
+src/config/save_config.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/config/save_config.c.o
+.PHONY : src/config/save_config.c.o
+
+src/config/save_config.i: src/config/save_config.c.i
+.PHONY : src/config/save_config.i
+
+# target to preprocess a source file
+src/config/save_config.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/config/save_config.c.i
+.PHONY : src/config/save_config.c.i
+
+src/config/save_config.s: src/config/save_config.c.s
+.PHONY : src/config/save_config.s
+
+# target to generate assembly for a file
+src/config/save_config.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/config/save_config.c.s
+.PHONY : src/config/save_config.c.s
+
 src/get_device/get_hid.o: src/get_device/get_hid.c.o
 .PHONY : src/get_device/get_hid.o
 
@@ -177,6 +249,174 @@ src/get_device/get_hid.s: src/get_device/get_hid.c.s
 src/get_device/get_hid.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/get_device/get_hid.c.s
 .PHONY : src/get_device/get_hid.c.s
+
+src/imgui/gui.o: src/imgui/gui.cpp.o
+.PHONY : src/imgui/gui.o
+
+# target to build an object file
+src/imgui/gui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/gui.cpp.o
+.PHONY : src/imgui/gui.cpp.o
+
+src/imgui/gui.i: src/imgui/gui.cpp.i
+.PHONY : src/imgui/gui.i
+
+# target to preprocess a source file
+src/imgui/gui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/gui.cpp.i
+.PHONY : src/imgui/gui.cpp.i
+
+src/imgui/gui.s: src/imgui/gui.cpp.s
+.PHONY : src/imgui/gui.s
+
+# target to generate assembly for a file
+src/imgui/gui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/gui.cpp.s
+.PHONY : src/imgui/gui.cpp.s
+
+src/imgui/imgui.o: src/imgui/imgui.cpp.o
+.PHONY : src/imgui/imgui.o
+
+# target to build an object file
+src/imgui/imgui.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/imgui.cpp.o
+.PHONY : src/imgui/imgui.cpp.o
+
+src/imgui/imgui.i: src/imgui/imgui.cpp.i
+.PHONY : src/imgui/imgui.i
+
+# target to preprocess a source file
+src/imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/imgui.cpp.i
+.PHONY : src/imgui/imgui.cpp.i
+
+src/imgui/imgui.s: src/imgui/imgui.cpp.s
+.PHONY : src/imgui/imgui.s
+
+# target to generate assembly for a file
+src/imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/imgui.cpp.s
+.PHONY : src/imgui/imgui.cpp.s
+
+src/imgui/imgui_draw.o: src/imgui/imgui_draw.cpp.o
+.PHONY : src/imgui/imgui_draw.o
+
+# target to build an object file
+src/imgui/imgui_draw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_draw.cpp.o
+.PHONY : src/imgui/imgui_draw.cpp.o
+
+src/imgui/imgui_draw.i: src/imgui/imgui_draw.cpp.i
+.PHONY : src/imgui/imgui_draw.i
+
+# target to preprocess a source file
+src/imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_draw.cpp.i
+.PHONY : src/imgui/imgui_draw.cpp.i
+
+src/imgui/imgui_draw.s: src/imgui/imgui_draw.cpp.s
+.PHONY : src/imgui/imgui_draw.s
+
+# target to generate assembly for a file
+src/imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_draw.cpp.s
+.PHONY : src/imgui/imgui_draw.cpp.s
+
+src/imgui/imgui_impl_glfw.o: src/imgui/imgui_impl_glfw.cpp.o
+.PHONY : src/imgui/imgui_impl_glfw.o
+
+# target to build an object file
+src/imgui/imgui_impl_glfw.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_glfw.cpp.o
+.PHONY : src/imgui/imgui_impl_glfw.cpp.o
+
+src/imgui/imgui_impl_glfw.i: src/imgui/imgui_impl_glfw.cpp.i
+.PHONY : src/imgui/imgui_impl_glfw.i
+
+# target to preprocess a source file
+src/imgui/imgui_impl_glfw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_glfw.cpp.i
+.PHONY : src/imgui/imgui_impl_glfw.cpp.i
+
+src/imgui/imgui_impl_glfw.s: src/imgui/imgui_impl_glfw.cpp.s
+.PHONY : src/imgui/imgui_impl_glfw.s
+
+# target to generate assembly for a file
+src/imgui/imgui_impl_glfw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_glfw.cpp.s
+.PHONY : src/imgui/imgui_impl_glfw.cpp.s
+
+src/imgui/imgui_impl_opengl3.o: src/imgui/imgui_impl_opengl3.cpp.o
+.PHONY : src/imgui/imgui_impl_opengl3.o
+
+# target to build an object file
+src/imgui/imgui_impl_opengl3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_opengl3.cpp.o
+.PHONY : src/imgui/imgui_impl_opengl3.cpp.o
+
+src/imgui/imgui_impl_opengl3.i: src/imgui/imgui_impl_opengl3.cpp.i
+.PHONY : src/imgui/imgui_impl_opengl3.i
+
+# target to preprocess a source file
+src/imgui/imgui_impl_opengl3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_opengl3.cpp.i
+.PHONY : src/imgui/imgui_impl_opengl3.cpp.i
+
+src/imgui/imgui_impl_opengl3.s: src/imgui/imgui_impl_opengl3.cpp.s
+.PHONY : src/imgui/imgui_impl_opengl3.s
+
+# target to generate assembly for a file
+src/imgui/imgui_impl_opengl3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_opengl3.cpp.s
+.PHONY : src/imgui/imgui_impl_opengl3.cpp.s
+
+src/imgui/imgui_tables.o: src/imgui/imgui_tables.cpp.o
+.PHONY : src/imgui/imgui_tables.o
+
+# target to build an object file
+src/imgui/imgui_tables.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_tables.cpp.o
+.PHONY : src/imgui/imgui_tables.cpp.o
+
+src/imgui/imgui_tables.i: src/imgui/imgui_tables.cpp.i
+.PHONY : src/imgui/imgui_tables.i
+
+# target to preprocess a source file
+src/imgui/imgui_tables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_tables.cpp.i
+.PHONY : src/imgui/imgui_tables.cpp.i
+
+src/imgui/imgui_tables.s: src/imgui/imgui_tables.cpp.s
+.PHONY : src/imgui/imgui_tables.s
+
+# target to generate assembly for a file
+src/imgui/imgui_tables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_tables.cpp.s
+.PHONY : src/imgui/imgui_tables.cpp.s
+
+src/imgui/imgui_widgets.o: src/imgui/imgui_widgets.cpp.o
+.PHONY : src/imgui/imgui_widgets.o
+
+# target to build an object file
+src/imgui/imgui_widgets.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_widgets.cpp.o
+.PHONY : src/imgui/imgui_widgets.cpp.o
+
+src/imgui/imgui_widgets.i: src/imgui/imgui_widgets.cpp.i
+.PHONY : src/imgui/imgui_widgets.i
+
+# target to preprocess a source file
+src/imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_widgets.cpp.i
+.PHONY : src/imgui/imgui_widgets.cpp.i
+
+src/imgui/imgui_widgets.s: src/imgui/imgui_widgets.cpp.s
+.PHONY : src/imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+src/imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/aquila-air-driver.dir/build.make CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_widgets.cpp.s
+.PHONY : src/imgui/imgui_widgets.cpp.s
 
 src/make_packet/make_packet.o: src/make_packet/make_packet.c.o
 .PHONY : src/make_packet/make_packet.o
@@ -238,9 +478,39 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/config/apply_config.o"
+	@echo "... src/config/apply_config.i"
+	@echo "... src/config/apply_config.s"
+	@echo "... src/config/load_config.o"
+	@echo "... src/config/load_config.i"
+	@echo "... src/config/load_config.s"
+	@echo "... src/config/save_config.o"
+	@echo "... src/config/save_config.i"
+	@echo "... src/config/save_config.s"
 	@echo "... src/get_device/get_hid.o"
 	@echo "... src/get_device/get_hid.i"
 	@echo "... src/get_device/get_hid.s"
+	@echo "... src/imgui/gui.o"
+	@echo "... src/imgui/gui.i"
+	@echo "... src/imgui/gui.s"
+	@echo "... src/imgui/imgui.o"
+	@echo "... src/imgui/imgui.i"
+	@echo "... src/imgui/imgui.s"
+	@echo "... src/imgui/imgui_draw.o"
+	@echo "... src/imgui/imgui_draw.i"
+	@echo "... src/imgui/imgui_draw.s"
+	@echo "... src/imgui/imgui_impl_glfw.o"
+	@echo "... src/imgui/imgui_impl_glfw.i"
+	@echo "... src/imgui/imgui_impl_glfw.s"
+	@echo "... src/imgui/imgui_impl_opengl3.o"
+	@echo "... src/imgui/imgui_impl_opengl3.i"
+	@echo "... src/imgui/imgui_impl_opengl3.s"
+	@echo "... src/imgui/imgui_tables.o"
+	@echo "... src/imgui/imgui_tables.i"
+	@echo "... src/imgui/imgui_tables.s"
+	@echo "... src/imgui/imgui_widgets.o"
+	@echo "... src/imgui/imgui_widgets.i"
+	@echo "... src/imgui/imgui_widgets.s"
 	@echo "... src/make_packet/make_packet.o"
 	@echo "... src/make_packet/make_packet.i"
 	@echo "... src/make_packet/make_packet.s"

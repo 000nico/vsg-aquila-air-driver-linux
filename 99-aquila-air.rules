@@ -1,0 +1,2 @@
+# Aquila Air mouse (2ea8:2203): allow access without root
+KERNEL=="hidraw*", ATTRS{idVendor}=="2ea8", ATTRS{idProduct}=="2203", MODE="0666"

@@ -1,6 +1,6 @@
 #pragma once
-#include "../global.h"
 #include <stdint.h>
+#include <assert.h>
 
 #pragma pack(push, 1)
 typedef struct {
@@ -39,4 +39,4 @@ typedef struct {
     CfgBody body;
 } Cfg1Packet;
 #pragma pack(pop)
-_Static_assert(sizeof(CfgBody) == 58, "bad count");
+static_assert(sizeof(CfgBody) == 58, "bad count");

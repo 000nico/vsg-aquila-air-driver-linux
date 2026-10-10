@@ -3,6 +3,8 @@
 #include "src/make_packet/make_packet.h"
 #include "src/make_packet/struct.h"
 #include "src/send_packet/send_packet.h"
+#include "src/config/config.h"
+#include "src/imgui/gui.h"
 #include <hidapi/hidapi.h>
 #include <stdio.h>
 
@@ -16,7 +18,6 @@ int main() {
 
     struct hid_device_info *devs = hid_enumerate(VID, PID);
     struct hid_device_info *cur = devs;
-    hid_device* handle = NULL;
 
     while (cur) {
         printf("path: %s | interface: %d | usage page: 0x%04X | usage: 0x%04X\n", 
@@ -46,9 +47,8 @@ int main() {
         printf("Usage Page: 0x%04X, Usage: 0x%04X\n", info->usage_page, info->usage);
     }
 
-    Color color = makeColor(255, 255, 255);
-    DpiLevel dpi = makeDpiLevel(0x0C, 0x0C, 0);
-    Cfg1Packet packet = make_cfg1(100, 5, 0, (Color){0,0,0}, (DpiLevel){0,0,0});
+    packet = make_cfg1(74, 5, 2, makeColor(255, 255, 255), (DpiLevel){0, 0, 0});
+    load_config();
 
     int written_bytes = send_packet(handle, &packet);
     if(written_bytes < 0) {
@@ -58,4 +58,6 @@ int main() {
     } else {
         fprintf(stdout, "wrote %i bytes\n", written_bytes);
     }
+
+    run_gui();
 }

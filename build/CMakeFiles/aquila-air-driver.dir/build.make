@@ -86,10 +86,52 @@ CMakeFiles/aquila-air-driver.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/aquila-air-driver.dir/main.c.s"
 	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nico/dev/vsg-aquila-air-driver-linux/main.c -o CMakeFiles/aquila-air-driver.dir/main.c.s
 
+CMakeFiles/aquila-air-driver.dir/src/config/apply_config.c.o: CMakeFiles/aquila-air-driver.dir/flags.make
+CMakeFiles/aquila-air-driver.dir/src/config/apply_config.c.o: /home/nico/dev/vsg-aquila-air-driver-linux/src/config/apply_config.c
+CMakeFiles/aquila-air-driver.dir/src/config/apply_config.c.o: CMakeFiles/aquila-air-driver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/aquila-air-driver.dir/src/config/apply_config.c.o"
+	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/aquila-air-driver.dir/src/config/apply_config.c.o -MF CMakeFiles/aquila-air-driver.dir/src/config/apply_config.c.o.d -o CMakeFiles/aquila-air-driver.dir/src/config/apply_config.c.o -c /home/nico/dev/vsg-aquila-air-driver-linux/src/config/apply_config.c
+
+CMakeFiles/aquila-air-driver.dir/src/config/apply_config.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/aquila-air-driver.dir/src/config/apply_config.c.i"
+	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nico/dev/vsg-aquila-air-driver-linux/src/config/apply_config.c > CMakeFiles/aquila-air-driver.dir/src/config/apply_config.c.i
+
+CMakeFiles/aquila-air-driver.dir/src/config/apply_config.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/aquila-air-driver.dir/src/config/apply_config.c.s"
+	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nico/dev/vsg-aquila-air-driver-linux/src/config/apply_config.c -o CMakeFiles/aquila-air-driver.dir/src/config/apply_config.c.s
+
+CMakeFiles/aquila-air-driver.dir/src/config/load_config.c.o: CMakeFiles/aquila-air-driver.dir/flags.make
+CMakeFiles/aquila-air-driver.dir/src/config/load_config.c.o: /home/nico/dev/vsg-aquila-air-driver-linux/src/config/load_config.c
+CMakeFiles/aquila-air-driver.dir/src/config/load_config.c.o: CMakeFiles/aquila-air-driver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/aquila-air-driver.dir/src/config/load_config.c.o"
+	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/aquila-air-driver.dir/src/config/load_config.c.o -MF CMakeFiles/aquila-air-driver.dir/src/config/load_config.c.o.d -o CMakeFiles/aquila-air-driver.dir/src/config/load_config.c.o -c /home/nico/dev/vsg-aquila-air-driver-linux/src/config/load_config.c
+
+CMakeFiles/aquila-air-driver.dir/src/config/load_config.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/aquila-air-driver.dir/src/config/load_config.c.i"
+	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nico/dev/vsg-aquila-air-driver-linux/src/config/load_config.c > CMakeFiles/aquila-air-driver.dir/src/config/load_config.c.i
+
+CMakeFiles/aquila-air-driver.dir/src/config/load_config.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/aquila-air-driver.dir/src/config/load_config.c.s"
+	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nico/dev/vsg-aquila-air-driver-linux/src/config/load_config.c -o CMakeFiles/aquila-air-driver.dir/src/config/load_config.c.s
+
+CMakeFiles/aquila-air-driver.dir/src/config/save_config.c.o: CMakeFiles/aquila-air-driver.dir/flags.make
+CMakeFiles/aquila-air-driver.dir/src/config/save_config.c.o: /home/nico/dev/vsg-aquila-air-driver-linux/src/config/save_config.c
+CMakeFiles/aquila-air-driver.dir/src/config/save_config.c.o: CMakeFiles/aquila-air-driver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/aquila-air-driver.dir/src/config/save_config.c.o"
+	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/aquila-air-driver.dir/src/config/save_config.c.o -MF CMakeFiles/aquila-air-driver.dir/src/config/save_config.c.o.d -o CMakeFiles/aquila-air-driver.dir/src/config/save_config.c.o -c /home/nico/dev/vsg-aquila-air-driver-linux/src/config/save_config.c
+
+CMakeFiles/aquila-air-driver.dir/src/config/save_config.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/aquila-air-driver.dir/src/config/save_config.c.i"
+	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nico/dev/vsg-aquila-air-driver-linux/src/config/save_config.c > CMakeFiles/aquila-air-driver.dir/src/config/save_config.c.i
+
+CMakeFiles/aquila-air-driver.dir/src/config/save_config.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/aquila-air-driver.dir/src/config/save_config.c.s"
+	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nico/dev/vsg-aquila-air-driver-linux/src/config/save_config.c -o CMakeFiles/aquila-air-driver.dir/src/config/save_config.c.s
+
 CMakeFiles/aquila-air-driver.dir/src/get_device/get_hid.c.o: CMakeFiles/aquila-air-driver.dir/flags.make
 CMakeFiles/aquila-air-driver.dir/src/get_device/get_hid.c.o: /home/nico/dev/vsg-aquila-air-driver-linux/src/get_device/get_hid.c
 CMakeFiles/aquila-air-driver.dir/src/get_device/get_hid.c.o: CMakeFiles/aquila-air-driver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/aquila-air-driver.dir/src/get_device/get_hid.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/aquila-air-driver.dir/src/get_device/get_hid.c.o"
 	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/aquila-air-driver.dir/src/get_device/get_hid.c.o -MF CMakeFiles/aquila-air-driver.dir/src/get_device/get_hid.c.o.d -o CMakeFiles/aquila-air-driver.dir/src/get_device/get_hid.c.o -c /home/nico/dev/vsg-aquila-air-driver-linux/src/get_device/get_hid.c
 
 CMakeFiles/aquila-air-driver.dir/src/get_device/get_hid.c.i: cmake_force
@@ -103,7 +145,7 @@ CMakeFiles/aquila-air-driver.dir/src/get_device/get_hid.c.s: cmake_force
 CMakeFiles/aquila-air-driver.dir/src/make_packet/make_packet.c.o: CMakeFiles/aquila-air-driver.dir/flags.make
 CMakeFiles/aquila-air-driver.dir/src/make_packet/make_packet.c.o: /home/nico/dev/vsg-aquila-air-driver-linux/src/make_packet/make_packet.c
 CMakeFiles/aquila-air-driver.dir/src/make_packet/make_packet.c.o: CMakeFiles/aquila-air-driver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/aquila-air-driver.dir/src/make_packet/make_packet.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/aquila-air-driver.dir/src/make_packet/make_packet.c.o"
 	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/aquila-air-driver.dir/src/make_packet/make_packet.c.o -MF CMakeFiles/aquila-air-driver.dir/src/make_packet/make_packet.c.o.d -o CMakeFiles/aquila-air-driver.dir/src/make_packet/make_packet.c.o -c /home/nico/dev/vsg-aquila-air-driver-linux/src/make_packet/make_packet.c
 
 CMakeFiles/aquila-air-driver.dir/src/make_packet/make_packet.c.i: cmake_force
@@ -117,7 +159,7 @@ CMakeFiles/aquila-air-driver.dir/src/make_packet/make_packet.c.s: cmake_force
 CMakeFiles/aquila-air-driver.dir/src/send_packet/send_packet.c.o: CMakeFiles/aquila-air-driver.dir/flags.make
 CMakeFiles/aquila-air-driver.dir/src/send_packet/send_packet.c.o: /home/nico/dev/vsg-aquila-air-driver-linux/src/send_packet/send_packet.c
 CMakeFiles/aquila-air-driver.dir/src/send_packet/send_packet.c.o: CMakeFiles/aquila-air-driver.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/aquila-air-driver.dir/src/send_packet/send_packet.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/aquila-air-driver.dir/src/send_packet/send_packet.c.o"
 	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/aquila-air-driver.dir/src/send_packet/send_packet.c.o -MF CMakeFiles/aquila-air-driver.dir/src/send_packet/send_packet.c.o.d -o CMakeFiles/aquila-air-driver.dir/src/send_packet/send_packet.c.o -c /home/nico/dev/vsg-aquila-air-driver-linux/src/send_packet/send_packet.c
 
 CMakeFiles/aquila-air-driver.dir/src/send_packet/send_packet.c.i: cmake_force
@@ -128,25 +170,145 @@ CMakeFiles/aquila-air-driver.dir/src/send_packet/send_packet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/aquila-air-driver.dir/src/send_packet/send_packet.c.s"
 	/usr/sbin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nico/dev/vsg-aquila-air-driver-linux/src/send_packet/send_packet.c -o CMakeFiles/aquila-air-driver.dir/src/send_packet/send_packet.c.s
 
+CMakeFiles/aquila-air-driver.dir/src/imgui/gui.cpp.o: CMakeFiles/aquila-air-driver.dir/flags.make
+CMakeFiles/aquila-air-driver.dir/src/imgui/gui.cpp.o: /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/gui.cpp
+CMakeFiles/aquila-air-driver.dir/src/imgui/gui.cpp.o: CMakeFiles/aquila-air-driver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/aquila-air-driver.dir/src/imgui/gui.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aquila-air-driver.dir/src/imgui/gui.cpp.o -MF CMakeFiles/aquila-air-driver.dir/src/imgui/gui.cpp.o.d -o CMakeFiles/aquila-air-driver.dir/src/imgui/gui.cpp.o -c /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/gui.cpp
+
+CMakeFiles/aquila-air-driver.dir/src/imgui/gui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aquila-air-driver.dir/src/imgui/gui.cpp.i"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/gui.cpp > CMakeFiles/aquila-air-driver.dir/src/imgui/gui.cpp.i
+
+CMakeFiles/aquila-air-driver.dir/src/imgui/gui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aquila-air-driver.dir/src/imgui/gui.cpp.s"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/gui.cpp -o CMakeFiles/aquila-air-driver.dir/src/imgui/gui.cpp.s
+
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui.cpp.o: CMakeFiles/aquila-air-driver.dir/flags.make
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui.cpp.o: /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui.cpp
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui.cpp.o: CMakeFiles/aquila-air-driver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/aquila-air-driver.dir/src/imgui/imgui.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aquila-air-driver.dir/src/imgui/imgui.cpp.o -MF CMakeFiles/aquila-air-driver.dir/src/imgui/imgui.cpp.o.d -o CMakeFiles/aquila-air-driver.dir/src/imgui/imgui.cpp.o -c /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui.cpp
+
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aquila-air-driver.dir/src/imgui/imgui.cpp.i"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui.cpp > CMakeFiles/aquila-air-driver.dir/src/imgui/imgui.cpp.i
+
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aquila-air-driver.dir/src/imgui/imgui.cpp.s"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui.cpp -o CMakeFiles/aquila-air-driver.dir/src/imgui/imgui.cpp.s
+
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_draw.cpp.o: CMakeFiles/aquila-air-driver.dir/flags.make
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_draw.cpp.o: /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui_draw.cpp
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_draw.cpp.o: CMakeFiles/aquila-air-driver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_draw.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_draw.cpp.o -MF CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_draw.cpp.o.d -o CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_draw.cpp.o -c /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui_draw.cpp
+
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_draw.cpp.i"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui_draw.cpp > CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_draw.cpp.i
+
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_draw.cpp.s"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui_draw.cpp -o CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_draw.cpp.s
+
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/aquila-air-driver.dir/flags.make
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_glfw.cpp.o: /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui_impl_glfw.cpp
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_glfw.cpp.o: CMakeFiles/aquila-air-driver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_glfw.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_glfw.cpp.o -MF CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_glfw.cpp.o.d -o CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_glfw.cpp.o -c /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui_impl_glfw.cpp
+
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_glfw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_glfw.cpp.i"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui_impl_glfw.cpp > CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_glfw.cpp.i
+
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_glfw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_glfw.cpp.s"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui_impl_glfw.cpp -o CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_glfw.cpp.s
+
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/aquila-air-driver.dir/flags.make
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_opengl3.cpp.o: /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui_impl_opengl3.cpp
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_opengl3.cpp.o: CMakeFiles/aquila-air-driver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_opengl3.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_opengl3.cpp.o -MF CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_opengl3.cpp.o -c /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui_impl_opengl3.cpp
+
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_opengl3.cpp.i"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui_impl_opengl3.cpp > CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_opengl3.cpp.i
+
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_opengl3.cpp.s"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui_impl_opengl3.cpp -o CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_opengl3.cpp.s
+
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_tables.cpp.o: CMakeFiles/aquila-air-driver.dir/flags.make
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_tables.cpp.o: /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui_tables.cpp
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_tables.cpp.o: CMakeFiles/aquila-air-driver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_tables.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_tables.cpp.o -MF CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_tables.cpp.o.d -o CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_tables.cpp.o -c /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui_tables.cpp
+
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_tables.cpp.i"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui_tables.cpp > CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_tables.cpp.i
+
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_tables.cpp.s"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui_tables.cpp -o CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_tables.cpp.s
+
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_widgets.cpp.o: CMakeFiles/aquila-air-driver.dir/flags.make
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_widgets.cpp.o: /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui_widgets.cpp
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_widgets.cpp.o: CMakeFiles/aquila-air-driver.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_widgets.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_widgets.cpp.o -MF CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_widgets.cpp.o -c /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui_widgets.cpp
+
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_widgets.cpp.i"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui_widgets.cpp > CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_widgets.cpp.i
+
+CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_widgets.cpp.s"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nico/dev/vsg-aquila-air-driver-linux/src/imgui/imgui_widgets.cpp -o CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_widgets.cpp.s
+
 # Object files for target aquila-air-driver
 aquila__air__driver_OBJECTS = \
 "CMakeFiles/aquila-air-driver.dir/main.c.o" \
+"CMakeFiles/aquila-air-driver.dir/src/config/apply_config.c.o" \
+"CMakeFiles/aquila-air-driver.dir/src/config/load_config.c.o" \
+"CMakeFiles/aquila-air-driver.dir/src/config/save_config.c.o" \
 "CMakeFiles/aquila-air-driver.dir/src/get_device/get_hid.c.o" \
 "CMakeFiles/aquila-air-driver.dir/src/make_packet/make_packet.c.o" \
-"CMakeFiles/aquila-air-driver.dir/src/send_packet/send_packet.c.o"
+"CMakeFiles/aquila-air-driver.dir/src/send_packet/send_packet.c.o" \
+"CMakeFiles/aquila-air-driver.dir/src/imgui/gui.cpp.o" \
+"CMakeFiles/aquila-air-driver.dir/src/imgui/imgui.cpp.o" \
+"CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_draw.cpp.o" \
+"CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_glfw.cpp.o" \
+"CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_opengl3.cpp.o" \
+"CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_tables.cpp.o" \
+"CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_widgets.cpp.o"
 
 # External object files for target aquila-air-driver
 aquila__air__driver_EXTERNAL_OBJECTS =
 
 aquila-air-driver: CMakeFiles/aquila-air-driver.dir/main.c.o
+aquila-air-driver: CMakeFiles/aquila-air-driver.dir/src/config/apply_config.c.o
+aquila-air-driver: CMakeFiles/aquila-air-driver.dir/src/config/load_config.c.o
+aquila-air-driver: CMakeFiles/aquila-air-driver.dir/src/config/save_config.c.o
 aquila-air-driver: CMakeFiles/aquila-air-driver.dir/src/get_device/get_hid.c.o
 aquila-air-driver: CMakeFiles/aquila-air-driver.dir/src/make_packet/make_packet.c.o
 aquila-air-driver: CMakeFiles/aquila-air-driver.dir/src/send_packet/send_packet.c.o
+aquila-air-driver: CMakeFiles/aquila-air-driver.dir/src/imgui/gui.cpp.o
+aquila-air-driver: CMakeFiles/aquila-air-driver.dir/src/imgui/imgui.cpp.o
+aquila-air-driver: CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_draw.cpp.o
+aquila-air-driver: CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_glfw.cpp.o
+aquila-air-driver: CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_impl_opengl3.cpp.o
+aquila-air-driver: CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_tables.cpp.o
+aquila-air-driver: CMakeFiles/aquila-air-driver.dir/src/imgui/imgui_widgets.cpp.o
 aquila-air-driver: CMakeFiles/aquila-air-driver.dir/build.make
 aquila-air-driver: CMakeFiles/aquila-air-driver.dir/compiler_depend.ts
+aquila-air-driver: /usr/lib64/libGL.so
 aquila-air-driver: /usr/lib64/libhidapi-hidraw.so
+aquila-air-driver: /usr/lib64/libglfw.so
 aquila-air-driver: CMakeFiles/aquila-air-driver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable aquila-air-driver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nico/dev/vsg-aquila-air-driver-linux/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable aquila-air-driver"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/aquila-air-driver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
